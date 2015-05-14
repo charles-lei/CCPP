@@ -1,6 +1,6 @@
 #ifndef _SORT_H_
 #define _SORT_H_
-#include "..\Common.h"
+#include "..\Common\Common.h"
 //©ЛкыеепР
 void QuickSort(int *a, uint length);
 

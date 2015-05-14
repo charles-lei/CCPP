@@ -80,12 +80,13 @@
   <ItemGroup>
     <ClCompile Include="BSTree\BSTree.cpp" />
     <ClCompile Include="CCPP.CPP" />
-    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Common\Common.cpp" />
     <ClCompile Include="LinkList\LinkList.cpp" />
     <ClCompile Include="Sort\Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BSTree\BSTree.h" />
+    <ClInclude Include="Common\Common.h" />
     <ClInclude Include="LinkList\LinkList.h" />
     <ClInclude Include="Sort\Sort.h" />
   </ItemGroup>

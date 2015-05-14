@@ -1,5 +1,5 @@
 #include "LinkList.h"
-#include "..\Common.h"
+#include "..\Common\Common.h"
 
 //根据元素列表创建链表
 pLinkList CreateLinkList(const ElemType *elemArray, unsigned int length)

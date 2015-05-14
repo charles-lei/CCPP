@@ -1,5 +1,5 @@
 #include "Sort.h"
-#include "..\Common.h"
+#include "..\Common\Common.h"
 
 //ц╟ещеепР
 void BubbleSort(int *a, uint length)

@@ -31,12 +31,15 @@
     <Filter Include="Header Files\BStree">
       <UniqueIdentifier>{85f86e42-051f-477f-ad81-ebbc0b47cfd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{6e3f5921-a1cb-431d-9afb-a2d34383c567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{363e3929-0c3c-4ad8-96b0-da0a33c90bce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCPP.CPP">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sort\Sort.cpp">
@@ -48,6 +51,9 @@
     <ClCompile Include="BSTree\BSTree.cpp">
       <Filter>Source Files\BSTree</Filter>
     </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sort\Sort.h">
@@ -58,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="BSTree\BSTree.h">
       <Filter>Header Files\BStree</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

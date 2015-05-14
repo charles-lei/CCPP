@@ -1,7 +1,7 @@
 #ifndef _LINKLIST_H_
 #define _LINKLIST_H_
 
-#include "..\Common.h"
+#include "..\Common\Common.h"
 //元素类型定义
 typedef int ElemType;
 
