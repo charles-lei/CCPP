@@ -13,5 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Sort">
+      <UniqueIdentifier>{84d63058-33b3-4b11-a76c-f0c4522b5dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sort">
+      <UniqueIdentifier>{7f162a55-f8eb-40d2-beba-5b621248d3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinkList">
+      <UniqueIdentifier>{fabcdd26-b033-4db5-b7ed-e55010181c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BSTree">
+      <UniqueIdentifier>{02e619e6-9b74-42e0-b25e-93fd5987dddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LinkList">
+      <UniqueIdentifier>{c98e336d-a7e6-403d-8c49-3889b1166e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BStree">
+      <UniqueIdentifier>{85f86e42-051f-477f-ad81-ebbc0b47cfd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCPP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\Sort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList\LinkList.cpp">
+      <Filter>Source Files\LinkList</Filter>
+    </ClCompile>
+    <ClCompile Include="BSTree\BSTree.cpp">
+      <Filter>Source Files\BSTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sort\Sort.h">
+      <Filter>Header Files\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList\LinkList.h">
+      <Filter>Header Files\LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="BSTree\BSTree.h">
+      <Filter>Header Files\BStree</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
