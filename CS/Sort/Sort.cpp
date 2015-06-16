@@ -4,9 +4,9 @@
 //ц╟ещеепР
 void BubbleSort(int *a, uint length)
 {
-	for (uint i = 0; i<length - 1; i++)
+	for (uint i = 0; i < length - 1; i++)
 	{
-		for (uint j = length - 1; j>i; j--)
+		for (uint j = length - 1; j > i; j--)
 		{
 			if (a[j] < a[j - 1])
 			{

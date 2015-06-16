@@ -4,7 +4,7 @@
 //根据元素列表创建链表
 pLinkList CreateLinkList(const ElemType *elemArray, unsigned int length)
 {
-	pLinkList ret = NULL;
+	pLinkList ret = nullptr;
 
 	if (length == 0)
 		return ret;
@@ -12,7 +12,7 @@ pLinkList CreateLinkList(const ElemType *elemArray, unsigned int length)
 	for (uint i = 0; i < length; i++)
 	{
 		LinkNode *pLinkNode = new LinkNode();
-		if (pLinkNode != NULL)
+		if (pLinkNode != nullptr)
 		{
 			InsertLinkNode(&ret, pLinkNode, i);
 		}	
@@ -23,13 +23,13 @@ pLinkList CreateLinkList(const ElemType *elemArray, unsigned int length)
 //根据元素指定个数创建链表，ElemType值为系统默认
 pLinkList CreateLinkList(const uint elemCount)
 {
-	return NULL;
+	return nullptr;
 }
 
 //根据现有链表创建链表
 pLinkList CreateLinkList(const pLinkList  linkList)
 {
-	return NULL;
+	return nullptr;
 }
 //清空链表并释放空间
 bool ClearLinkList(pLinkList linkList)
@@ -39,7 +39,7 @@ bool ClearLinkList(pLinkList linkList)
 //删除链表中某一个结点
 pLinkList DeleteNode(LinkNode * node)
 {
-	return NULL;
+	return nullptr;
 }
 
 //删除链表中第index个结点
@@ -75,7 +75,7 @@ void ReverseLinkList(pLinkList linkList)
 //在位置index处插入节点
 void InsertLinkNode(pLinkList *linkList, LinkNode *node, uint index)
 {
-	if(linkList == NULL || *linkList==NULL || node==NULL)
+	if(linkList == nullptr || *linkList== nullptr || node== nullptr)
 		return;
 
 	uint nodeCount = GetNodesCount(*linkList);
@@ -90,11 +90,11 @@ void InsertLinkNode(pLinkList *linkList, LinkNode *node, uint index)
 //在末尾插入节点
 pLinkList InsertRearLinkNode(pLinkList *linkList, LinkNode *node)
 {
-	return NULL;
+	return nullptr;
 }
 
 //在首部插入节点
 pLinkList InsertHeadLinkNode(pLinkList *linkList, LinkNode *node)
 {
-	return NULL;
+	return nullptr;
 }
